@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAMMAYANAM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="container">
+        <header>
+            <h1>KAMMAYANAM - THE SEARCH FOR TWO-PIECE</h1>
+        </header>
+        <nav>
+            <div class="chapter-nav">
+                <button id="prev-chapter" onclick="prevChapter()"><i class="fa-solid fa-arrow-left"></i></button>
+                <span id="current-chapter">Chapter 1: New Beginnings</span>
+                <button id="next-chapter" onclick="nextChapter()"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </nav>
+        <main>
+            <iframe id="pdf-viewer" src="chapter1.pdf" frameborder="0"></iframe>
+        </main>
+        <section class="extras">
+            <h2>Latest News & Posters</h2>
+            <div class="extra-content">
+                <div class="news">
+                    <h3>Latest News</h3>
+                    <ul>
+                        <li>Chapter 4: Coming Soon!</li>
+                        <li>NONE!</li>
+                        <li>NONE!</li>
+                    </ul>
+                </div>
+                <div class="posters">
+                    <h3>Posters</h3>
+                    <div class="poster-gallery">
+                        <img src="png/poster1.jpg" alt="Poster 1">
+                        <img src="png/poster2.png" alt="Poster 2">
+                        <img src="png/poster3.jpeg" alt="Poster 3">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
